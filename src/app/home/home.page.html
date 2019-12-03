@@ -11,4 +11,14 @@
     The world is your oyster.
     <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
   </div>
+  <ion-item>
+    <ion-label>ID</ion-label>
+    <ion-input [(ngModel)]="id"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Name</ion-label>
+    <ion-input [(ngModel)]="name"></ion-input>
+  </ion-item>
+  <ion-button expand="block" color="primary" (click)="ekle()">EKLE</ion-button>
+  <ion-button expand="block" color="primary" (click)="getObject()">GETİR</ion-button>
 </ion-content>
